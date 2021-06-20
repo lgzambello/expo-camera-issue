@@ -1,32 +1,24 @@
 {
   "expo": {
-    "name": "gem",
-    "slug": "gem",
-    "owner": "gem-bitclout",
+    "name": "camera-app",
+    "slug": "camera-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
     "splash": {
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#33B2B2"
+      "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 30000
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.gem.bitclout",
-      "buildNumber": "4"
+      "supportsTablet": true
     },
-    "android": {
-      "package": "com.gem.bitclout",
-      "versionCode": 1,
-      "adaptiveIcon": {
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {}
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
   }
 }
