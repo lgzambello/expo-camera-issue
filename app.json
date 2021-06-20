@@ -1,12 +1,32 @@
 {
-  "name": "expo-camera-app",
-  "displayName": "expo-camera-app",
   "expo": {
-    "name": "expo-camera-app",
-    "slug": "expo-camera-app",
+    "name": "gem",
+    "slug": "gem",
+    "owner": "gem-bitclout",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#33B2B2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gem.bitclout",
+      "buildNumber": "4"
+    },
+    "android": {
+      "package": "com.gem.bitclout",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {}
   }
 }
